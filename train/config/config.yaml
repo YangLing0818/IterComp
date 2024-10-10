@@ -1,0 +1,23 @@
+# ckpt/config options(static)
+blip_path: https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large.pth
+med_config: train/config/med_config.json
+
+# ckpt/logger options(dynamic)
+checkpoint_base: checkpoint
+visual_base: visualization
+log_base: log
+
+# dataset
+data_base: data/prompt/attribute_binding
+image_base: images
+pair_store_base: datasets/train/attribute_binding/pair_store_clip_iterative1
+
+# model parameters
+BLIP:
+  vit: 'large'
+  image_size: 224
+
+ImageReward:
+  mlp_dim: 768
+
+model_gallery: ['sd15', 'sdxl', 'sd3', 'flux', 'rpg', 'instancediffusion']

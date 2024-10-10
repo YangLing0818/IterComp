@@ -1,0 +1,21 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch --mixed_precision=fp16 --num_processes=4 --multi_gpu  iterative_fl.py \
+  --use_ema \
+  --resolution=512 --center_crop --random_flip \
+  --train_batch_size=4 \
+  --gradient_accumulation_steps=4 \
+  --gradient_checkpointing \
+  --max_train_steps=200 \
+  --learning_rate=1e-05 \
+  --max_grad_norm=1 \
+  --reward_attribute_path=" " \
+  --reward_spatial_path=" " \
+  --reward_nonspatial_path=" " \
+  --lr_scheduler="constant" --lr_warmup_steps=0 \
+  --output_dir="checkpoints/itercomp_iteration0" \
+  --grad_scale=0.001 \
+  --checkpointing_steps 400 \
+  --image_base_dir="data/images/" \
+  --mapping_batch_size=128 \
+  --save_only_one_ckpt \
+  --apply_reward_loss \
+  --image_reward_version ''\
