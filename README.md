@@ -1,8 +1,8 @@
 ## IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation
 
-This repository contains the official implementation of our [IterComp](https://).
+This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171).
 
-> [**IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**](https:)   
+> [**IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**](https://arxiv.org/abs/2410.07171)   
 > [Xinchen Zhang\*](https://cominclip.github.io/), 
 > [Ling Yang\*](https://yangling0818.github.io/), 
 > [Guohao Li](https://ghli.org/), 
@@ -15,8 +15,8 @@ This repository contains the official implementation of our [IterComp](https://)
 > <br>**Tsinghua University, Peking University, University of Oxford, USTC, LibAI Lab, Princeton University**<br>
 
 <p align="left">
-  <a href='https://arxiv.org/abs/'>
-  <img src='https://img.shields.io/badge/Arxiv-2404.19759-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a> 
+  <a href='https://arxiv.org/abs/2410.07171'>
+  <img src='https://img.shields.io/badge/Arxiv-2410.07171-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a> 
   <a href='https://huggingface.co/comin/IterComp'>
   <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow'></a>
   <a href="" target='_blank'>
@@ -234,7 +234,7 @@ IterComp can **serve as a powerful backbone for various compositional generation
 @article{zhang2024itercomp,
   title={IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation},
   author={Zhang, Xinchen and Yang, Ling and Li, Guohao and Cai, Yaqi and Xie, Jiake and  Tang, Yong and Yang, Yujiu and Mengdi Wang and Cui, Bin},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv: 2410.07171},
   year={2024}
 }
 ```
