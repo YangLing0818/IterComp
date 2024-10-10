@@ -233,8 +233,8 @@ IterComp can **serve as a powerful backbone for various compositional generation
 ```
 @article{zhang2024itercomp,
   title={IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation},
-  author={Zhang, Xinchen and Yang, Ling and Li, Guohao and Cai, Yaqi and Xie, Jiake and  Tang, Yong and Yang, Yujiu and Mengdi Wang and Cui, Bin},
-  journal={arXiv preprint arXiv: 2410.07171},
+  author={Zhang, Xinchen and Yang, Ling and Li, Guohao and Cai, Yaqi and Xie, Jiake and  Tang, Yong and Yang, Yujiu and Wang, Mengdi and Cui, Bin},
+  journal={arXiv preprint arXiv:2410.07171},
   year={2024}
 }
 ```
