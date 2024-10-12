@@ -20,7 +20,7 @@ This repository contains the official implementation of our [IterComp](https://a
   <a href='https://huggingface.co/comin/IterComp'>
   <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow'></a>
   <a href='https://civitai.com/models/840857/itercomp'>
-  <img src=' https://img.shields.io/badge/Civitai-Models-blue'></a> 
+  <img src='https://img.shields.io/badge/Civitai-Models-blue'></a> 
   <a href="" target='_blank'>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=YangLing0818.IterComp&left_color=gray&right_color=%2342b983"></a> 
 </p>
