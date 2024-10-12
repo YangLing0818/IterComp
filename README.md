@@ -113,7 +113,7 @@ We collect composition-aware model preferences from multiple models and employ a
 </table>
 </details>
 
-## Quick Start
+## Quick Start for T2I Generation
 
 Our checkpoints are publicly available on [HuggingFace Repo](https://huggingface.co/comin/IterComp). Use the code below to try our IterComp:
 
