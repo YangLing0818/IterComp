@@ -1,4 +1,4 @@
-from diffusers import StableDiffusionPipeline, DiffusionPipeline, StableDiffusion3Pipeline, FLUXPipeline
+from diffusers import StableDiffusionPipeline, DiffusionPipeline, StableDiffusion3Pipeline, FluxPipeline
 from diffusers.schedulers import DPMSolverMultistepScheduler
 from data.RPG.RegionalDiffusion_xl import RegionalDiffusionXLPipeline
 from data.RPG.mllm import local_llm,GPT4
@@ -44,7 +44,7 @@ class ModelGallery:
         self.save_image(image, save_path)
 
     def generate_flux(self, prompt, save_path, seed=0, guidance_scale=3.5, num_inference_steps=50, max_sequence_length=512):
-        self.flux = FLUXPipeline.from_pretrained(self.model_paths['flux'], torch_dtype=torch.bfloat16).to(self.device)
+        self.flux = FluxPipeline.from_pretrained(self.model_paths['flux'], torch_dtype=torch.bfloat16).to(self.device)
         generator = torch.Generator("cpu").manual_seed(seed)
         image = self.flux(prompt=prompt, guidance_scale=guidance_scale, num_inference_steps=num_inference_steps, max_sequence_length=max_sequence_length, generator=generator).images[0]
         self.save_image(image, save_path)
