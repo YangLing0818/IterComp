@@ -1,6 +1,6 @@
-## IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation
+## IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation - ICLR 2025
 
-This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171).
+This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**).
 
 > [**IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**](https://arxiv.org/abs/2410.07171)   
 > [Xinchen Zhang\*](https://cominclip.github.io/), 
