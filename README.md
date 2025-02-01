@@ -38,7 +38,7 @@ We collect composition-aware model preferences from multiple models and employ a
 
 ## New Updates
 
-**[2025.02]** We enhance IterCompp-RPG with LLMs that possess the strongest reasoning capabilities, including [**DeepSeek-R1**](https://github.com/deepseek-ai/DeepSeek-R1), [**OpenAI o3-mini**](https://openai.com/index/openai-o3-mini/), and [**OpenAI o1**](https://openai.com/index/learning-to-reason-with-llms/) to achieve outstanding compositional image generation under complex prompts.
+**[2025.02]** We enhance IterComp-RPG with LLMs that possess the strongest reasoning capabilities, including [**DeepSeek-R1**](https://github.com/deepseek-ai/DeepSeek-R1), [**OpenAI o3-mini**](https://openai.com/index/openai-o3-mini/), and [**OpenAI o1**](https://openai.com/index/learning-to-reason-with-llms/) to achieve outstanding compositional image generation under complex prompts.
 
 **[2025.01]** IterComp is accepted by ICLR 2025!!!
 
