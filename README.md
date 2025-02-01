@@ -38,9 +38,82 @@ We collect composition-aware model preferences from multiple models and employ a
 
 ## New Updates
 
-**[2024.10]** Our main code of IterComp is released.
+**[2025.02]** We enhance IterCompp-RPG with LLMs that possess the strongest reasoning capabilities, including [**DeepSeek-R1**](https://github.com/deepseek-ai/DeepSeek-R1), [**OpenAI o3-mini**](https://openai.com/index/openai-o3-mini/), and [**OpenAI o1**](https://openai.com/index/learning-to-reason-with-llms/) to achieve outstanding compositional image generation under complex prompts.
+
+**[2025.01]** IterComp is accepted by ICLR 2025!!!
 
 **[2024.10]** Checkpoints of base diffusion model are publicly available on [HuggingFace Repo](https://huggingface.co/comin/IterComp).
+
+**[2024.10]** Our main code of IterComp is released.
+
+## New Changes of IterComp
+
+### 🔥🔥🔥News: Enhance IterComp-RPG with DeepSeek-R1, o3-mini and o1
+
+<details open>
+<summary>2048*1024 Examples</summary>
+<table class="center" style="width: 100%; border-collapse: collapse;">
+<tr>
+<td colspan="2" style="border: none; text-align: center;">DeepSeek-R1</td>
+</tr>
+<tr>
+<td colspan="2" style="border: none">
+<img src="figs/new_llms/prompt1_deepseekr1.png" style="width:100%; height: auto">
+</td>
+</tr>
+<tr>
+<td width="50%" style="border: none; text-align: center;">OpenAI o3-mini</td>
+<td width="50%" style="border: none; text-align: center;">OpenAI o1</td>
+</tr>
+<tr>
+<td style="border: none">
+<img src="figs/new_llms/prompt1_openaio3mini.png" style="width:100%; height: auto">
+</td>
+<td style="border: none">
+<img src="figs/new_llms/prompt1_openaio1.png" style="width:100%; height: auto">
+</td>
+</tr>
+<tr>
+<td colspan="2" style="border: none; text-align: left; padding: 10px">
+A surreal dreamscape where the sky is split into day and night. On the left side, a bright sun shines over golden fields with people flying kites, while on the right side, a deep blue night sky is filled with stars and glowing jellyfish floating in the air. In the center, a giant clock tower stands, with its hands pointing to different times for each side. A person wearing a half-day, half-night cloak is walking down the path that separates the two worlds.
+</td>
+</tr>
+</table>
+</details>
+
+<details open>
+<summary>1024*1024 Examples</summary> 
+<table class="center" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td width="33%" style="border: none; text-align: center; word-wrap: break-word">DeepSeek-R1</td>
+    <td width="33%" style="border: none; text-align: center; word-wrap: break-word">OpenAI o3-mini</td>
+    <td width="33%" style="border: none; text-align: center; word-wrap: break-word">OpenAI o1</td>
+  </tr>
+  <tr>
+    <td width="33%" style="border: none"><img src="figs/new_llms/prompt2_deepseekr1.png" style="width:100%"></td>
+    <td width="33%" style="border: none"><img src="figs/new_llms/prompt2_openaio3mini.png" style="width:100%"></td>
+    <td width="33%" style="border: none"><img src="figs/new_llms/prompt2_openaio1.png" style="width:100%"></td>
+  </tr>
+  <tr>
+    <td colspan="3" style="border: none; text-align: left; word-wrap: break-word">
+      A floating city above the clouds, with golden towers and waterfalls cascading into the mist below. A dragon with shimmering wings soars through the sky, while airships dock at crystal platforms.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" style="border: none"><img src="figs/new_llms/prompt3_deepseekr1.png" style="width:100%"></td>
+    <td width="33%" style="border: none"><img src="figs/new_llms/prompt3_openaio3mini.png" style="width:100%"></td>
+    <td width="33%" style="border: none"><img src="figs/new_llms/prompt3_openaio1.png" style="width:100%"></td>
+  </tr>
+  <tr>
+    <td colspan="3" style="border: none; text-align: left; word-wrap: break-word">
+      A cozy winter cabin in a snowy forest at night. Warm yellow lights glow from the windows, and smoke gently rises from the chimney. A deer stands near the trees, watching as a child builds a snowman. In the sky, the northern lights shimmer above the treetops.
+    </td>
+  </tr>
+</table>
+</details>
+
+
+We recommend using [**DeepSeek-R1**](https://github.com/deepseek-ai/DeepSeek-R1) as the regional planner and [**IterComp**](https://github.com/YangLing0818/IterComp) as the base diffusion model to achieve the state-of-the-art compositional text-to-image generation results.
 
 
 ## Visual Display
