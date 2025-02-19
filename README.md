@@ -44,7 +44,7 @@ We collect composition-aware model preferences from multiple models and employ a
 
 **[2025.01]** IterComp is accepted by ICLR 2025!!!
 
-**[2024.10]** Checkpoints of base diffusion model are publicly available on [HuggingFace Repo](https://huggingface.co/comin/IterComp).
+**[2024.10]** Checkpoints of IterComp (base diffusion model) are publicly available on [HuggingFace Repo](https://huggingface.co/comin/IterComp).
 
 **[2024.10]** Our main code of IterComp is released.
 
